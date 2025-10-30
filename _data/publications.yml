@@ -1,0 +1,74 @@
+# Custom Publications Data
+# Add your publications here with all the details and optional buttons
+
+- title: "AudioJudge: Understanding what works in large audio model based speech evaluation"
+  authors:
+    - name: "Potsawee Manakul"
+      equal_contrib: true
+    - name: "Woody Haosheng Gan"
+      equal_contrib: true
+    - name: "Michael J. Ryan"
+    - name: "Ali Sartaz Khan"
+    - name: "Warit Sirichotedumrong"
+    - name: "Kunat Pipatanakul"
+    - name: "William Held"
+    - name: "Diyi Yang"
+  venue: "arXiv preprint"
+  year: 2025
+  image: "/assets/img/publications/audiojudge.jpg"
+  paper: "https://arxiv.org/abs/2507.12705"
+  code: "https://github.com/Woodygan/AudioJudge"
+  highlight_author: "Woody Haosheng Gan"
+  selected: true
+
+- title: "Textual steering vectors can improve visual understanding in multimodal large language models"
+  authors:
+    - name: "Woody Haosheng Gan"
+      equal_contrib: true
+    - name: "Deqing Fu"
+      equal_contrib: true
+    - name: "Julian Asilis"
+      equal_contrib: true
+    - name: "Ollie Liu"
+      equal_contrib: true
+    - name: "Dani Yogatama"
+    - name: "Vatsal Sharan"
+    - name: "Robin Jia"
+    - name: "Willie Neiswanger"
+  venue: "arXiv preprint"
+  year: 2025
+  image: "/assets/img/publications/steering_vectors.jpg"
+  paper: "https://arxiv.org/abs/2505.14071"
+  code: "https://github.com/Woodygan/TextSteersVision"
+  blog: "https://www.lesswrong.com/posts/XwxSYoFWijSwrHF6n/untitled-draft-nr3m?utm_campaign=post_share&utm_source=link"
+  highlight_author: "Woody Haosheng Gan"
+  selected: true
+
+- title: "ConceptMix++: Leveling the playing field in text-to-image benchmarking via iterative prompt optimization"
+  authors:
+    - name: "Haosheng Gan"
+    - name: "Berk Tinaz"
+    - name: "Mohammad Shahab Sepehri"
+    - name: "Zalan Fabian"
+    - name: "Mahdi Soltanolkotabi"
+  venue: "CVPR Workshop on Generative Models for Computer Vision"
+  year: 2025
+  image: "/assets/img/publications/conceptmix.jpg"
+  paper: "https://arxiv.org/abs/2507.03275"
+  highlight_author: "Haosheng Gan"
+  selected: true
+
+- title: "Differentially private in-context learning via sampling few-shot mixed with zero-shot outputs"
+  authors:
+    - name: "James Flemings"
+    - name: "Haosheng Gan"
+    - name: "Hongyi Li"
+    - name: "Meisam Razaviyayn"
+    - name: "Murali Annavaram"
+  venue: "arXiv preprint"
+  year: 2025
+  image: "/assets/img/publications/dp_icl.jpg"
+  paper: "https://arxiv.org/abs/2501.19287"
+  code: "https://github.com/james-flemings/dps-mozo"
+  highlight_author: "Haosheng Gan"
+  selected: false

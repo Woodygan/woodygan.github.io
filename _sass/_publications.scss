@@ -1,0 +1,234 @@
+/* Custom Publications and Projects Styling */
+
+.publications, .projects {
+  .publication-item, .project-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--global-bg-color);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid var(--global-divider-color);
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      border-color: var(--global-theme-color);
+    }
+  }
+
+  .publication-image-container, .project-image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+
+    .publication-image, .project-image {
+      transition: all 0.3s ease;
+      border: 2px solid var(--global-divider-color);
+
+      &:hover {
+        transform: scale(1.05);
+        border-color: var(--global-theme-color);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  .publication-title, .project-title {
+    color: var(--global-text-color);
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.75rem;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .publication-authors, .project-authors {
+    .author {
+      color: var(--global-text-color);
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+
+      &.highlight-author {
+        color: var(--global-theme-color);
+        font-weight: 600;
+      }
+    }
+
+    .author-separator {
+      color: var(--global-text-color);
+    }
+
+    .equal-contrib {
+      color: var(--global-theme-color);
+      font-weight: bold;
+    }
+
+    .equal-contrib-note {
+      margin-top: 0.25rem;
+      font-style: italic;
+    }
+  }
+
+  .publication-venue, .project-description {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+
+    .publication-year {
+      font-weight: 500;
+    }
+  }
+
+  .publication-buttons, .project-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+
+    .publication-btn, .project-btn {
+      border-radius: 20px;
+      padding: 0.375rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      border-width: 1.5px;
+
+      &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      i {
+        margin-right: 0.3rem;
+      }
+
+      // Cute button colors
+      &.btn-outline-primary {
+        color: #dc3545;
+        border-color: #dc3545;
+        &:hover {
+          background-color: #dc3545;
+          border-color: #dc3545;
+          color: white;
+          box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
+        }
+      }
+
+      &.btn-outline-success {
+        color: #198754;
+        border-color: #198754;
+        &:hover {
+          background-color: #198754;
+          border-color: #198754;
+          color: white;
+          box-shadow: 0 4px 12px rgba(25, 135, 84, 0.3);
+        }
+      }
+
+      &.btn-outline-info {
+        color: #0dcaf0;
+        border-color: #0dcaf0;
+        &:hover {
+          background-color: #0dcaf0;
+          border-color: #0dcaf0;
+          color: white;
+          box-shadow: 0 4px 12px rgba(13, 202, 240, 0.3);
+        }
+      }
+
+      &.btn-outline-warning {
+        color: #fd7e14;
+        border-color: #fd7e14;
+        &:hover {
+          background-color: #fd7e14;
+          border-color: #fd7e14;
+          color: white;
+          box-shadow: 0 4px 12px rgba(253, 126, 20, 0.3);
+        }
+      }
+
+      &.btn-outline-secondary {
+        color: #6c757d;
+        border-color: #6c757d;
+        &:hover {
+          background-color: #6c757d;
+          border-color: #6c757d;
+          color: white;
+          box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+        }
+      }
+
+      &.btn-outline-purple {
+        color: #6f42c1;
+        border-color: #6f42c1;
+        &:hover {
+          background-color: #6f42c1;
+          border-color: #6f42c1;
+          color: white;
+          box-shadow: 0 4px 12px rgba(111, 66, 193, 0.3);
+        }
+      }
+    }
+  }
+
+  .publication-divider, .project-divider {
+    border: none;
+    border-top: 1px solid var(--global-divider-color);
+    margin: 2rem 0;
+    opacity: 0.5;
+  }
+}
+
+// Dark mode adjustments
+[data-theme="dark"] {
+  .publications {
+    .publication-item, .project-item {
+      background: var(--global-card-bg-color);
+      border-color: var(--global-divider-color);
+
+      &:hover {
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    .publication-image, .project-image {
+      &:hover {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .publications {
+    .publication-item, .project-item {
+      padding: 1rem;
+
+      .publication-buttons, .project-buttons {
+        .publication-btn, .project-btn {
+          font-size: 0.75rem;
+          padding: 0.25rem 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+// Animation classes for scroll animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.publication-item[data-aos="fade-up"] {
+  animation: fadeInUp 0.6s ease-out;
+}

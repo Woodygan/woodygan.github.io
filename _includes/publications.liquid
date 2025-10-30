@@ -1,8 +1,8 @@
-<!-- Selected Publications for Homepage -->
+<!-- Custom Publications Layout -->
 <div class="publications">
-  {% assign selected_publications = site.data.publications | where: 'selected', true %}
+  {% assign publications = site.data.publications %}
 
-  {% for pub in selected_publications %}
+  {% for pub in publications %}
     <div class="publication-item" data-aos="fade-up">
       <div class="row align-items-center mb-4">
 
@@ -13,8 +13,8 @@
                  alt="{{ pub.title }}"
                  class="publication-image img-fluid rounded shadow-sm"
                  data-bs-toggle="modal"
-                 data-bs-target="#selectedImageModal{{ forloop.index }}"
-                 style="cursor: pointer; max-height: 120px; object-fit: cover;">
+                 data-bs-target="#imageModal{{ forloop.index }}"
+                 style="cursor: pointer; max-height: 150px; object-fit: cover;">
           </div>
         </div>
 
@@ -23,7 +23,7 @@
           <div class="publication-content">
 
             <!-- Title -->
-            <h6 class="publication-title mb-2">{{ pub.title }}</h6>
+            <h5 class="publication-title mb-2">{{ pub.title }}</h5>
 
             <!-- Authors -->
             <div class="publication-authors mb-2">
@@ -52,9 +52,8 @@
             </div>
 
             <!-- Venue -->
-            <div class="publication-venue mb-2">
-              <em>{{ pub.venue }}</em>
-              {% if pub.year %}<span class="publication-year">, {{ pub.year }}</span>{% endif %}
+            <div class="publication-venue mb-3">
+              <em>{{ pub.venue }}</em>{% if pub.year %}<span class="publication-year">, {{ pub.year }}</span>{% endif %}
             </div>
 
             <!-- Action Buttons -->
@@ -96,11 +95,11 @@
     </div>
 
     <!-- Image Modal -->
-    <div class="modal fade" id="selectedImageModal{{ forloop.index }}" tabindex="-1" aria-labelledby="selectedImageModalLabel{{ forloop.index }}" aria-hidden="true">
+    <div class="modal fade" id="imageModal{{ forloop.index }}" tabindex="-1" aria-labelledby="imageModalLabel{{ forloop.index }}" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="selectedImageModalLabel{{ forloop.index }}">{{ pub.title }}</h5>
+            <h5 class="modal-title" id="imageModalLabel{{ forloop.index }}">{{ pub.title }}</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body text-center">

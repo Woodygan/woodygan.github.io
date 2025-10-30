@@ -1,0 +1,25 @@
+# Custom Projects Data
+# Add your projects here with all the details and optional buttons
+- title: "CAVA: Comprehensive Assessment for Voice Assistants"
+  authors:
+    - name: "William Held"
+      equal_contrib: true
+    - name: "Michael J. Ryan"
+      equal_contrib: true
+    - name: "Aditya Shrivastava"
+    - name: "Ali Sartaz Khan"
+    - name: "Caleb Ziems"
+    - name: "Minzhi Ella Li"
+    - name: "Martijn Bartelds"
+    - name: "Michael Sun"
+    - name: "Tan Li"
+    - name: "Woody Haosheng Gan"
+    - name: "Diyi Yang"
+  description: "Benchmark Release for Large Audio Models in Voice Assistant Tasks"
+  year: 2025
+  image: "/assets/img/publications/cava.jpg"
+  website: "https://talkarena.org/cava"
+  code: "https://github.com/SALT-NLP/CAVA"
+  dataset: "https://huggingface.co/datasets/rma9248/CATS-ami-speaker-diarization-audio"
+  highlight_author: "Woody Haosheng Gan"
+  featured: true

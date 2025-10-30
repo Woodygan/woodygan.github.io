@@ -1,34 +1,37 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Computer Science & Applied Mathematics @ USC
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: pic.jpg
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>University of Southern California</p>
+    <p>Los Angeles, CA</p>
+    <p>woodygan at usc dot edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+featured_projects: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey! I'm Woody, a fourth-year undergrad at <a href="https://www.usc.edu/" target="_blank">USC</a>✌️.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I do research on NLP and multimodal models for vision and audio. I'm interested in understanding how AI models actually work under the hood and building better ways to evaluate them.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I'm working with Professor <a href="https://vatsalsharan.github.io/" target="_blank">Vatsal Sharan</a> at USC PALMS Lab🌴. I'm also very fortunate to be advised by Professor <a href="https://willieneis.github.io/" target="_blank">Willie Neiswanger</a> and Professor <a href="https://viterbi-web.usc.edu/~soltanol/" target="_blank">Mahdi Soltanolkotabi</a>. I visited <a href="https://saltlab.stanford.edu/" target="_blank">Stanford SALT Lab</a>🌲 this past summer, supervised by Professor <a href="https://cs.stanford.edu/~diyiy/" target="_blank">Diyi Yang</a>. I'm grateful to learn from my amazing PhD mentors <a href="https://deqingfu.github.io/" target="_blank">Deqing Fu</a> at USC and <a href="https://williamheld.com/" target="_blank">William Held</a> at Stanford.
+
+When I'm not training models or writing papers, you can find me playing or watching soccer⚽. I play left wing and people say I'm the next Vini Jr—hit me up if your team needs a good player! I also volunteer through <a href="https://www.volunteermatch.org/" target="_blank">VolunteerMatch</a>. Always happy to connect with others who want to give back to the community!
