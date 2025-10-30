@@ -30,7 +30,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "news-will-be-at-neurips-2025-in-san-diego-dec-2-7-if-you-re-there-please-catch-me-around-the-conference-always-happy-to-chat-about-ai-research-collaborations-or-just-grab-coffee",
+          title: 'Will be at NeurIPS 2025 in San Diego (Dec 2-7) ! If you’re...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'Email',
         section: 'Socials',
