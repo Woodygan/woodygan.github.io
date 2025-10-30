@@ -125,6 +125,10 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  news:
+    defaults:
+      layout: post
+    output: false
   projects:
     output: true
 
