@@ -34,7 +34,7 @@ ninja.data = [{
           title: 'Will be at NeurIPS 2025 in San Diego (Dec 2-7) ! If you’re...',
           description: "",
           section: "News",},{id: "news-audiojudge-accepted-to-eacl-2026-looking-forward-to-presenting-our-work-in-morocco-in-late-march",
-          title: '🎉 AudioJudge accepted to EACL 2026! Looking forward to presenting our work in...',
+          title: 'AudioJudge accepted to EACL 2026! Looking forward to presenting our work in Morocco...',
           description: "",
           section: "News",},{
         id: 'social-email',
