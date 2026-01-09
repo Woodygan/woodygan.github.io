@@ -13,8 +13,8 @@
     - name: "Kunat Pipatanakul"
     - name: "William Held"
     - name: "Diyi Yang"
-  venue: "EACL 2026"
-  year: 2025
+  venue: "Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2026"
+  year: 2026
   image: "/assets/img/publications/audiojudge.jpg"
   paper: "https://arxiv.org/abs/2507.12705"
   code: "https://github.com/Woodygan/AudioJudge"
