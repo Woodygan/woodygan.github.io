@@ -36,6 +36,9 @@ ninja.data = [{
           section: "News",},{id: "news-audiojudge-accepted-to-eacl-2026-looking-forward-to-presenting-our-work-in-morocco-in-late-march",
           title: 'AudioJudge accepted to EACL 2026! Looking forward to presenting our work in Morocco...',
           description: "",
+          section: "News",},{id: "news-putting-humans-first-paper-finalized-for-submission-working-hard-on-improving-the-preprint-version-with-more-experiments-and-better-analysis",
+          title: 'Putting HUMANS first paper finalized for submission! Working hard on improving the preprint...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'Email',
