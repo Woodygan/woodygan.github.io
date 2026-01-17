@@ -1,6 +1,20 @@
 # Custom Publications Data
 # Add your publications here with all the details and optional buttons
 
+- title: "Putting HUMANS first: Efficient LAM Evaluation with Human Preference Alignment"
+  authors:
+    - name: "Woody Haosheng Gan"
+    - name: "William Held"
+    - name: "Diyi Yang"
+  venue: "Under Review"
+  year: 2026
+  image: "/assets/img/publications/humans_first.jpg"
+  paper: "/assets/pdf/humans_first.pdf"
+  code: "https://woodygan.github.io/humans-benchmark/"
+  dataset: "https://huggingface.co/datasets/rma9248/humans-benchmark"
+  highlight_author: "Woody Haosheng Gan"
+  selected: true
+
 - title: "AudioJudge: Understanding what works in large audio model based speech evaluation"
   authors:
     - name: "Potsawee Manakul"
