@@ -53,9 +53,27 @@
 
             <!-- Venue -->
             <div class="publication-venue mb-2">
-              <em>{{ pub.venue }}</em>
-              {% if pub.year %}<span class="publication-year">, {{ pub.year }}</span>{% endif %}
+              <em>{{ pub.venue | markdownify | remove: '<p>' | remove: '</p>' | strip }}</em>
             </div>
+
+            <!-- Year -->
+            {% if pub.year %}
+              <div class="publication-year mb-2">
+                {% assign year_color = 'bg-secondary' %}
+                {% if pub.year == 2026 %}
+                  {% assign year_color = 'bg-primary' %}
+                {% elsif pub.year == 2025 %}
+                  {% assign year_color = 'bg-success' %}
+                {% elsif pub.year == 2024 %}
+                  {% assign year_color = 'bg-warning' %}
+                {% elsif pub.year == 2023 %}
+                  {% assign year_color = 'bg-info' %}
+                {% elsif pub.year == 2022 %}
+                  {% assign year_color = 'bg-danger' %}
+                {% endif %}
+                <span class="badge {{ year_color }}">{{ pub.year }}</span>
+              </div>
+            {% endif %}
 
             <!-- Action Buttons -->
             <div class="publication-buttons">
@@ -80,6 +98,12 @@
               {% if pub.blog %}
                 <a href="{{ pub.blog }}" target="_blank" class="btn btn-sm btn-outline-warning publication-btn">
                   <i class="fas fa-blog"></i> Blog
+                </a>
+              {% endif %}
+
+              {% if pub.models %}
+                <a href="{{ pub.models }}" target="_blank" class="btn btn-sm btn-outline-dark publication-btn">
+                  <i class="fas fa-robot"></i> Models
                 </a>
               {% endif %}
 

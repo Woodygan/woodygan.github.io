@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2026-01-06 10:00:00-0400
+date: 2026-04-06 10:00:00-0400
 inline: true
 related_posts: false
 ---
-**Putting HUMANS first** paper finalized for submission! Working hard on improving the preprint version with more experiments and better analysis. 🚀📄
+🎉 **Putting HUMANS First** and **Text Steers Vision** accepted at ACL 2026 Main! I will be presenting both papers in San Diego in early July. 📍🌴

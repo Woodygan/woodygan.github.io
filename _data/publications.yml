@@ -1,12 +1,30 @@
 # Custom Publications Data
 # Add your publications here with all the details and optional buttons
 
+- title: "Scaling Open Discrete Audio Foundation Models with Interleaved Semantic, Acoustic, and Text Tokens"
+  authors:
+    - name: "Potsawee Manakul"
+    - name: "Woody Haosheng Gan"
+    - name: "Martijn Bartelds"
+    - name: "Guangzhi Sun"
+    - name: "William Held"
+    - name: "Diyi Yang"
+  venue: "arXiv preprint"
+  year: 2026
+  image: "/assets/img/publications/soda.jpg"
+  paper: "https://arxiv.org/abs/2602.16687"
+  code: "https://github.com/potsawee/marin/tree/audio-release-pr/experiments/audio"
+  models: "https://huggingface.co/collections/SALT-NLP/soda-discrete-audio-models"
+  website: "https://soda-audio.github.io/"
+  highlight_author: "Woody Haosheng Gan"
+  selected: false
+
 - title: "Putting HUMANS first: Efficient LAM Evaluation with Human Preference Alignment"
   authors:
     - name: "Woody Haosheng Gan"
     - name: "William Held"
     - name: "Diyi Yang"
-  venue: "Under Review"
+  venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL 2026 Main)</strong>"
   year: 2026
   image: "/assets/img/publications/humans_first.jpg"
   paper: "/assets/pdf/humans_first.pdf"
@@ -27,8 +45,8 @@
     - name: "Kunat Pipatanakul"
     - name: "William Held"
     - name: "Diyi Yang"
-  venue: "Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2026"
-  year: 2026
+  venue: "Proceedings of the 21st Conference of the European Chapter of the Association for Computational Linguistics <strong>(EACL 2026 Main)</strong>"
+  year: 2025
   image: "/assets/img/publications/audiojudge.jpg"
   paper: "https://arxiv.org/abs/2507.12705"
   code: "https://github.com/Woodygan/AudioJudge"
@@ -49,7 +67,7 @@
     - name: "Vatsal Sharan"
     - name: "Robin Jia"
     - name: "Willie Neiswanger"
-  venue: "arXiv preprint"
+  venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL 2026 Main)</strong>"
   year: 2025
   image: "/assets/img/publications/steering_vectors.jpg"
   paper: "https://arxiv.org/abs/2505.14071"
@@ -65,7 +83,7 @@
     - name: "Mohammad Shahab Sepehri"
     - name: "Zalan Fabian"
     - name: "Mahdi Soltanolkotabi"
-  venue: "CVPR Workshop on Generative Models for Computer Vision"
+  venue: "3rd Workshop on Generative Models for Computer Vision (GMCV), CVPR 2025"
   year: 2025
   image: "/assets/img/publications/conceptmix.jpg"
   paper: "https://arxiv.org/abs/2507.03275"
