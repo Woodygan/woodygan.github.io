@@ -27,7 +27,7 @@
   venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL 2026 Main)</strong>"
   year: 2026
   image: "/assets/img/publications/humans_first.jpg"
-  paper: "/assets/pdf/humans_first.pdf"
+  paper: "https://aclanthology.org/2026.acl-long.1816/"
   code: "https://woodygan.github.io/humans-benchmark/"
   dataset: "https://huggingface.co/datasets/rma9248/humans-benchmark"
   highlight_author: "Woody Haosheng Gan"
@@ -48,7 +48,7 @@
   venue: "Proceedings of the 21st Conference of the European Chapter of the Association for Computational Linguistics <strong>(EACL 2026 Main)</strong>"
   year: 2025
   image: "/assets/img/publications/audiojudge.jpg"
-  paper: "https://arxiv.org/abs/2507.12705"
+  paper: "https://aclanthology.org/2026.eacl-long.168/"
   code: "https://github.com/Woodygan/AudioJudge"
   highlight_author: "Woody Haosheng Gan"
   selected: true
@@ -70,7 +70,7 @@
   venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL 2026 Main)</strong>"
   year: 2025
   image: "/assets/img/publications/steering_vectors.jpg"
-  paper: "https://arxiv.org/abs/2505.14071"
+  paper: "https://aclanthology.org/2026.acl-long.1861/"
   code: "https://github.com/Woodygan/TextSteersVision"
   blog: "https://www.lesswrong.com/posts/XwxSYoFWijSwrHF6n/untitled-draft-nr3m?utm_campaign=post_share&utm_source=link"
   highlight_author: "Woody Haosheng Gan"
