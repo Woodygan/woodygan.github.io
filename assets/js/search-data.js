@@ -39,12 +39,15 @@ ninja.data = [{
           section: "News",},{id: "news-putting-humans-first-and-text-steers-vision-accepted-at-acl-2026-main-i-will-be-presenting-both-papers-in-san-diego-in-early-july",
           title: '🎉 Putting HUMANS First and Text Steers Vision accepted at ACL 2026 Main!...',
           description: "",
+          section: "News",},{id: "news-started-my-cs-phd-at-the-school-of-interactive-computing-georgia-tech-my-office-is-at-the-11th-floor-of-coda-feel-free-to-stop-by",
+          title: '🐝 Started my CS PhD at the School of Interactive Computing, Georgia Tech...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'Email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%77%6F%6F%64%79%67%61%6E@%75%73%63.%65%64%75", "_blank");
+          window.open("mailto:%68%67%61%6E%33%36@%67%61%74%65%63%68.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
